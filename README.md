@@ -24,11 +24,12 @@ RestAssuredTesting/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/osmanyigituygun/
-│   │   │       └── BaseTest.java        # shared setup (base URI, common config)
+│   │   │      
 │   │   └── resources/
 │   └── test/
 │       └── java/
 │           └── com/osmanyigituygun/
+|                └── BaseTest.java        # shared setup (base URI, common config)
 │               ├── googleapi/           # tests for Google API
 │               ├── jiraapi/             # tests for JIRA API
 │               └── twitterapi/          # tests for Twitter API
